@@ -128,7 +128,7 @@ printname = () => {
     }
   };
   //timer section
-  var timeleft = 105;
+  var timeleft = 103;
   var element = document.querySelector("#timer");
   var timerId = setInterval(counter, 1000);
   function counter() {
