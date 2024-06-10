@@ -128,7 +128,7 @@ printname = () => {
     }
   };
   //timer section
-  var timeleft = 300;
+  var timeleft = 100;
   var element = document.querySelector("#timer");
   var timerId = setInterval(counter, 1000);
   function counter() {
@@ -154,7 +154,7 @@ printname = () => {
   
     name.innerHTML = user + "<br>";
     //Total time take for this quiz
-    let time_taken = 300 - timeleft;
+    let time_taken = 100 - timeleft;
     result_box.querySelector("#total_time_taken").innerHTML = " Total Time Taken : " + " <b> " + time_taken + "</b> " + " Seconds ";
   
   
